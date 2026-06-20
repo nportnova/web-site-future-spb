@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вакансии</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Unbounded" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+         <header class="shapka">
+                <div class="logo">
+                    <img class="logo_img" src="img/Group 239.png" alt="logo">
+                    <h2><a href="index.html">Будущее<br>Петербурга</a></h2>
+                </div>
+                <nav class="navigation">
+                    <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                    <label for="burger-checkbox" class="burger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <ul class="nav-menu">
+                        <li><a href="gallery.html">Галерея проектов</a></li>
+                        <li><a href="jobs.html">Вакансии</a></li>
+                        <li><a href="about_us.html">О нас</a></li>
+                        <li>
+                            <div class="profile_shapka">
+                                <a href="profile.html">Юлия</a>
+                                <img class="profile_icon" src="img/UserMale.png" alt="icon_profile">
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+    </div>
+    <div class="container">
+        <section>
+            <h2 class="nameh2">Доступные вакансии</h2>
+             <div class="filter1">
+                <select id="mySelect">
+                    <option value="">Сфера деятельности</option>
+                    <option value="">Специальность</option>
+                    <option value="">Опыт</option>
+                    <option value="">Формат работы</option>
+                </select>
+                <!-- <p>Сфера деятельности</p> -->
+                <!-- <img class="arrowdownimg" src="img/arrow_down.png" alt="icon_arrow_down"> -->
+            </div>
+            <hr class="filterr">
+            <div class="vakansii">
+                <div class="vakansia">
+                    <div class="vv">
+                        <img class="imgjobs" style="object-position: 0% 15%;" src="img/job1.jpg" alt="img_job1">
+                        <div class="vakansia_info">
+                            <h3 class="jobs_name">Архитектор</h3>
+                            <div class="vakansia_info_if">
+                                <p>Требуемый опыт работы: от 2 лет</p>
+                                <p>Офис + гибкий график</p>
+                            </div>
+                            <p>Ищем в команду Архитектора!</p>
+                            <p>Если вы инициативны, любознательны и целеустремлены, мы предлагаем вам пространство для роста и развития. Присоединяйтесь к нам, чтобы вместе создавать будущее.</p>
+                            <button class="button_jobs">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="vakansia">
+                    <div class="vv">
+                        <img class="imgjobs" style="object-position: 70%;" src="img/job2.jpg" alt="img_job1">
+                        <div class="vakansia_info">
+                            <h3 class="jobs_name">Дизайнер выставочных стендов</h3>
+                            <div class="vakansia_info_if">
+                                <p>Требуемый опыт работы: от 3 лет</p>
+                                <p>Гибрид</p>
+                            </div>
+                            <p>Вы подходите нам, если обладаете развитым 3D-мышлением, способны визуализировать концепции в объёмных проектах и создавать запоминающиеся выставочные пространства. Компания "Концепт" является ведущим игроком в проектировании, дизайне и строительстве эксклюзивных выставочных стендов и корпусной мебели.</p>
+                            <button class="button_jobs">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="vakansia">
+                    <div class="vv">
+                        <img class="imgjobs" style="object-position: 10%;" src="img/job3.jpg" alt="img_job1">
+                        <div class="vakansia_info">
+                            <h3 class="jobs_name">3D визуализатор интерьеров</h3>
+                            <div class="vakansia_info_if">
+                                <p>Требуемый опыт работы: опыт работы в HoReСa и Retail</p>
+                                <p>Офис</p>
+                            </div>
+                            <p>Возможность работать над проектами премиум класса крупных российских и международных брендов в современном креативным офисе в центре Санкт-Петербурга. С нами можно делать крутые проекты и гордится результатом!</p>
+                            <button class="button_jobs">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="nameh2">Оставить заявку</h2>
+            <p>Хотите оставить заявку, но не нашли подходящей вакансии? Оставьте свои контакты и мы свяжемся с вами!</p>
+            <div class="forma_appc">
+                <img class="applicationimg" src="img/jobsapp.jpg" alt="application_img">
+                <div class="form_f">
+                    <form>
+                        <fieldset>
+                            <div class="form_l">
+                                <label for="exampleFormControlTextarea1" class="form-label">Фамилия Имя</label>
+                                <input class="form-control" id="exampleFormControlTextarea1" rows="3"></input>
+                            </div>
+                            <div class="form_l">
+                                <label for="exampleFormControlTextarea1" class="form-label">Номер телефона</label>
+                                <input class="form-control" id="exampleFormControlTextarea1" rows="3"></input>
+                            </div>
+                            <div class="form_l">
+                                <label for="exampleFormControlInput1" class="form-label">Электронная почта</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="form_l">
+                                <label for="exampleFormControlTextarea1" class="form-label">Дополнительные пожелания</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button class="button_app" type="submit">Отправить</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer_1">
+            <div class="fotter">
+                <div class="fotter_logo">
+                    <img class="logo_img_footer" src="img/Mask group.png" alt="logo_footeer">
+                </div>   
+                <div class="contacts_footer">
+                    <p>support.futurespb@yandex.ru</p>
+                    <p>Санкт-Петербург, Кронверкский<br>проспект, 79/1</p>
+                </div> 
+            </div>
+            <div>
+                <p style="margin-bottom: 8px;">@future_spb</p>
+                <div class="icons_footer">
+                    <img class="iconsfooter" src="img/max_icon_white.png" alt="max">
+                    <img class="iconsfooter" src="img/vk_icon_white.png" alt="vk">
+                    <img class="iconsfooter" src="img/mail_icon_white.png" alt="mail">
+                </div>
+            </div>
+            <div class="footer_text">
+                <p><a href="about_us.html">О нас</a></p>
+                <p><a href="gallery.html">Галерея проектов</a></p>
+            </div>
+            <div class="footer_text">
+                <p><a href="profile.html">Личный профиль</a></p>
+                <p><a href="jobs.html">Вакансии</a></p>
+            </div>
+        </div>   
+        <div class="footer_2">
+            <p>Copyright © 2026 Санкт-Петербург,<br>Все Права Защищены.</p>
+            <p>Пользовательское соглашение</p>
+            <p>Политика конфиденциальности</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Unbounded" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <header class="shapka">
+                <div class="logo">
+                    <img class="logo_img" src="img/Group 239.png" alt="logo">
+                    <h2><a href="index.html">Будущее<br>Петербурга</a></h2>
+                </div>
+                <nav class="navigation">
+                    <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                    <label for="burger-checkbox" class="burger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <ul class="nav-menu">
+                        <li><a href="gallery.html">Галерея проектов</a></li>
+                        <li><a href="jobs.html">Вакансии</a></li>
+                        <li><a href="about_us.html">О нас</a></li>
+                        <li>
+                            <div class="profile_shapka">
+                                <a href="profile.html">Юлия</a>
+                                <img class="profile_icon" src="img/UserMale.png" alt="icon_profile">
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+    </div>
+    <div class="content">
+        <section>
+            <h2 class="nameh2">Галерея проектов</h2>
+            <div class="filter1">
+                <select id="mySelect">
+                    <option value="publication_date">По дате публикации</option>
+                    <option value="popularity">По популярности</option>
+                    <option value="area_of_creativity">По области творчества</option>
+                </select>
+                <!-- <p>По дате публикации</p> -->
+                <!-- <img class="arrowdownimg" src="img/arrow_down.png" alt="icon_arrow_down"> -->
+            </div>
+            <hr class="filterr">
+            <div class="grid_gallery">
+
+                <article class="gallery_projects">
+                    <div class="images">
+                        <img class="galleryimg" src="img/project1.jpg" alt="gallery_project1">
+                        <img class="heart" src="img/white_heart.png" alt="heart1">
+                    </div>
+                    <div class="article_text_all">
+                        <div class="article_text">
+                            <p style="font-weight: 500;">Промышленный экстерьер</p>
+                        </div>
+                        <div class="article_twolike">
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/hand-thumbs-up.png" alt="like">
+                                <p>364</p>
+                            </div>
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/chat-dots.png" alt="comment">
+                                <p>6</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-weight: 100;">Хортоломей М.</p>
+                    <p class="article_views">1к просмотров</p>
+                </article>
+
+                <article class="gallery_projects">
+                    <div class="images">
+                        <img class="galleryimg" src="img/popproject3.png" alt="gallery_project2">
+                        <img class="heart" src="img/black_heart.png" alt="heart2">
+                    </div>
+                    <div class="article_text_all">
+                        <div class="article_text">
+                            <p style="font-weight: 500;">Логотип для ресторана</p>
+                        </div>
+                        <div class="article_twolike">
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/hand-thumbs-up.png" alt="like">
+                                <p>45</p>
+                            </div>
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/chat-dots.png" alt="comment">
+                                <p>6</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-weight: 100;">Емельянов П.</p>
+                    <p class="article_views">390 просмотров</p>
+                </article>
+
+                <article class="gallery_projects">
+                    <div class="images">
+                        <img class="galleryimg" src="img/gazprom.jpg" alt="gallery_project3">
+                        <img class="heart" src="img/white_heart.png" alt="heart1">
+                    </div>
+                    <div class="article_text_all">
+                        <div class="article_text">
+                            <p style="font-weight: 500;">Газпром-сити</p>
+                            
+                        </div>
+                        <div class="article_twolike">
+                            <div class="icons_gallery" class="article_stat_n">
+                                <img class="icons_gallery" src="img/hand-thumbs-up.png" alt="like">
+                                <p>720</p>
+                            </div>
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/chat-dots.png" alt="comment">
+                                <p>58</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-weight: 100;">Fuksas Associati S.R.L</p>
+                    <p class="article_views">800 просмотров</p>
+                </article>
+
+                <article class="gallery_projects">
+                    <div class="images">
+                        <img class="galleryimg" src="img/usadba.png" alt="gallery_project4">
+                        <img class="heart" src="img/black_heart.png" alt="heart2">
+                    </div>
+                    <div class="article_text_all">
+                        <div class="article_text">
+                            <p style="font-weight: 500;">Усадьба</p>
+                            
+                        </div>
+                        <div class="article_twolike">
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/hand-thumbs-up.png" alt="like">
+                                <p>68</p>
+                            </div>
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/chat-dots.png" alt="comment">
+                                <p>0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-weight: 100;">Элизабет К.</p>
+                    <p class="article_views">301 просмотров</p>
+                </article>
+
+                <article class="gallery_projects">
+                    <div class="images">
+                        <img class="galleryimg" src="img/aquatoria.jpg" alt="gallery_project5">
+                        <img class="heart" src="img/white_heart.png" alt="heart1">
+                    </div>
+                    <div class="article_text_all">
+                        <div class="article_text">
+                            <p style="font-weight: 500;">ЖК Акватория</p>
+                            
+                        </div>
+                        <div class="article_twolike">
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/hand-thumbs-up.png" alt="like">
+                                <p>986</p>
+                            </div>
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/chat-dots.png" alt="comment">
+                                <p>168</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-weight: 100;">Подгорнов Евгений</p>
+                    <p class="article_views">3,2к просмотров</p>
+                </article>
+
+                <article class="gallery_projects">
+                    <div class="images">
+                        <img class="galleryimg" src="img/2lvlkv.png" alt="gallery_project6">
+                        <img class="heart" src="img/white_heart.png" alt="heart1">
+                    </div>
+                    <div class="article_text_all">
+                        <div class="article_text">
+                            <p style="font-weight: 500;">Двухуровневая квартира</p>
+                            
+                        </div>
+                        <div class="article_twolike">
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/hand-thumbs-up.png" alt="like">
+                                <p>15</p>
+                            </div>
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/chat-dots.png" alt="comment">
+                                <p>0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-weight: 100;">Юлия Ковылина</p>
+                    <p class="article_views">167 просмотров</p>
+                </article>
+
+                <article class="gallery_projects">
+                    <div class="images">
+                        <img class="galleryimg" src="img/filat.png" alt="gallery_project7">
+                        <img class="heart" src="img/white_heart.png" alt="heart1">
+                    </div>
+                    <div class="article_text_all">
+                        <div class="article_text">
+                            <p style="font-weight: 500;">Филат</p>
+                            
+                        </div>
+                        <div class="article_twolike">
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/hand-thumbs-up.png" alt="like">
+                                <p>50</p>
+                            </div>
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/chat-dots.png" alt="comment">
+                                <p>1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-weight: 100;">Хортоломей Михаил</p>
+                    <p class="article_views">454 просмотров</p>
+                </article>
+
+                <article class="gallery_projects">
+                    <div class="images">
+                        <img class="galleryimg" src="img/popproject1.png" alt="gallery_project8">
+                        <img class="heart" src="img/white_heart.png" alt="heart1">
+                    </div>
+                    <div class="article_text_all">
+                        <div class="article_text">
+                            <p style="font-weight: 500;">Многоквартирный дом</p>
+                            
+                        </div>
+                        <div class="article_twolike">
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/hand-thumbs-up.png" alt="like">
+                                <p>33</p>
+                            </div>
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/chat-dots.png" alt="comment">
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-weight: 100;">Родненко Юлия</p>
+                    <p class="article_views">90 просмотров</p>
+                </article>
+
+                <article class="gallery_projects">
+                    <div class="images">
+                        <img class="galleryimg" src="img/ohta.jpg" alt="gallery_project9">
+                        <img class="heart" src="img/white_heart.png" alt="heart1">
+                    </div>
+                    <div class="article_text_all">
+                        <div class="article_text">
+                            <p style="font-weight: 500;">Охта-центр</p>
+                            
+                        </div>
+                        <div class="article_twolike">
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/hand-thumbs-up.png" alt="like">
+                                <p>1к</p>
+                            </div>
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/chat-dots.png" alt="comment">
+                                <p>604</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-weight: 100;">RMJM London Limited</p>
+                    <p class="article_views">3к просмотров</p>
+                </article>
+
+                <article class="gallery_projects">
+                    <div class="images">
+                        <img class="galleryimg" src="img/kvforyoungerfamily.png" alt="gallery_project10">
+                        <img class="heart" src="img/white_heart.png" alt="heart1">
+                    </div>
+                    <div class="article_text_all">
+                        <div class="article_text">
+                            <p style="font-weight: 500;">Квартира для семьи</p>
+                            
+                        </div>
+                        <div class="article_twolike">
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/hand-thumbs-up.png" alt="like">
+                                <p>77</p>
+                            </div>
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/chat-dots.png" alt="comment">
+                                <p>2</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-weight: 100;">Родненко Юлия</p>
+                    <p class="article_views">129 просмотров</p>
+                </article>
+
+                <article class="gallery_projects">
+                    <div class="images">
+                        <img class="galleryimg" src="img/bathroom.png" alt="gallery_project11">
+                        <img class="heart" src="img/white_heart.png" alt="heart1">
+                    </div>
+                    <div class="article_text_all">
+                        <div class="article_text">
+                            <p style="font-weight: 500;">Визуализация ванной</p>
+
+                        </div>
+                        <div class="article_twolike">
+                            <div class="icons_gallery" class="article_stat_n">
+                                <img class="icons_gallery" src="img/hand-thumbs-up.png" alt="like">
+                                <p>82</p>
+                            </div>
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/chat-dots.png" alt="comment">
+                                <p>17</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-weight: 100;">Родненко Юлия</p>
+                    <p class="article_views">253 просмотров</p>
+                </article>
+
+                <article class="gallery_projects">
+                    <div class="images">
+                        <img class="galleryimg" src="img/popproject2.png" alt="gallery_project12">
+                        <img class="heart" src="img/white_heart.png" alt="heart1">
+                    </div>
+                    <div class="article_text_all">
+                        <div class="article_text">
+                            <p style="font-weight: 500;">Дом</p>
+                            
+                        </div>
+                        <div class="article_twolike">
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/hand-thumbs-up.png" alt="like">
+                                <p>199</p>
+                            </div>
+                            <div class="article_stat_n">
+                                <img class="icons_gallery" src="img/chat-dots.png" alt="comment">
+                                <p>9</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-weight: 100;">Драгун Никита</p>
+                    <p class="article_views">1,4к просмотров</p>
+                </article>
+            </div>
+            <div class="button_gallery">
+                <button class="gallery_button">Показать еще</button>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer_1">
+            <div class="fotter">
+                <div class="fotter_logo">
+                    <img class="logo_img_footer" src="img/Mask group.png" alt="logo_footeer">
+                </div>   
+                <div class="contacts_footer">
+                    <p>support.futurespb@yandex.ru</p>
+                    <p>Санкт-Петербург, Кронверкский<br>проспект, 79/1</p>
+                </div> 
+            </div>
+            <div>
+                <p style="margin-bottom: 8px;">@future_spb</p>
+                <div class="icons_footer">
+                    <img class="iconsfooter" src="img/max_icon_white.png" alt="max">
+                    <img class="iconsfooter" src="img/vk_icon_white.png" alt="vk">
+                    <img class="iconsfooter" src="img/mail_icon_white.png" alt="mail">
+                </div>
+            </div>
+            <div class="footer_text">
+                <p><a href="about_us.html">О нас</a></p>
+                <p><a href="gallery.html">Галерея проектов</a></p>
+            </div>
+            <div class="footer_text">
+                <p><a href="profile.html">Личный профиль</a></p>
+                <p><a href="jobs.html">Вакансии</a></p>
+            </div>
+        </div>   
+        <div class="footer_2">
+            <p>Copyright © 2026 Санкт-Петербург,<br>Все Права Защищены.</p>
+            <p>Пользовательское соглашение</p>
+            <p>Политика конфиденциальности</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
